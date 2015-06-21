@@ -1,9 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
 #The two functions are used to compute the inversion of a matrix that is given as input by the user, cache the inversion 
 #matrix for future use to save computational resources.
 
-## Write a short comment describing this function
+
 #This function takes a matrix as an input and has getters and setters for that matrix and its inverse.
 # This function assists the cacheSolve() function in caching.
 makeCacheMatrix <- function(x = matrix()) {
@@ -19,7 +17,6 @@ list(set=set, get=get, setInvMatrix = setInvMatrix, getInvMatrix = getInvMatrix)
 }
 
 
-## Write a short comment describing this function
 #This function takes makeCacheMatrix function as an input and returns the inversion matrix as the output.
 # The inversion matrix is returned from the cache if it is present otherwise it computes the inversion matrix, caches it and returns it.
 
